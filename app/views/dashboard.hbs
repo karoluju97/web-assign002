@@ -1,0 +1,15 @@
+{{> menu id="dashboard"}}
+
+{{#each animes}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{genre}}
+    </h2>
+    <a href="/anime/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="deleteanime/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}

@@ -1,0 +1,85 @@
+{
+  "animeCollection": [
+    {
+      "id": "01",
+      "genre": "Adventure Anime",
+      "shows": [
+        {
+          "id": "01",
+          "title": "Jojo's Bizzare Adventures | Golden Wind",
+          "director": "Warner Bros. Japan",
+          "episodes": "Ongoing",
+          "duration": "23 mins"
+        },
+        {
+          "id": "02",
+          "title": "How I Got Reincarnated as a Slime",
+          "director": "Funimation",
+          "episodes": "Ongoing",
+          "duration": "23 mins"
+        },
+        {
+          "id": "03",
+          "title": "Dororo",
+          "director": "Tezuka Productions",
+          "episodes": "Ongoing",
+          "duration": "24 mins"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "genre": "Comedy Anime",
+      "shows": [
+        {
+          "id": "01",
+          "title": "Beelzebub",
+          "director": "Discotek Media",
+          "episodes": "60",
+          "duration": "24 mins"
+        },
+        {
+          "id": "02",
+          "title": "Prison School",
+          "director": "Funimation",
+          "episodes": "12",
+          "duration": "24 mins"
+        },
+        {
+          "id": "03",
+          "title": "Highschool of The Dead",
+          "director": "Sentai Filmworks",
+          "episodes": "12",
+          "duration": "24 mins"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "genre": "Romantic Anime",
+      "shows": [
+        {
+          "id": "01",
+          "title": "Darling in The FranXX",
+          "director": "Funimation",
+          "episodes": "24",
+          "duration": "24 mins"
+        },
+        {
+          "id": "02",
+          "title": "High School DXD New",
+          "director": "Funimation",
+          "episodes": "12",
+          "duration": "24 mins"
+        },
+        {
+          "id": "03",
+          "title": "Sword Art Online",
+          "director": "Aniplex of America",
+          "episodes": "25",
+          "duration": "23.3 mins"
+        }
+      ]
+    }
+  ]
+}

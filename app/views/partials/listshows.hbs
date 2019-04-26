@@ -1,0 +1,32 @@
+<table class="ui table">
+  <thead>
+    <tr>
+      <th> Name </th>
+      <th> Director </th>
+      <th> Number of Episodes </th>
+      <th> Average Duration per Episodes </th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each anime.shows}}
+    <tr>
+    <td>
+    {{title}}  
+    </td>
+    <td>
+    {{director}}  
+    </td>
+    <td>
+    {{episodes}}  
+    </td>
+    <td>
+    {{duration}}  
+    </td>
+    <td>
+    <a href="/anime/{{../anime.id}}/deleteshow/{{id}}" class="ui tiny red button">Delete show</a>
+    </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
